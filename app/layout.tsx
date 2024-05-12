@@ -12,7 +12,7 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en" data-theme="cupcake">
-        <body>
+        <body className='p-4'>
             <Header />
             {children}
             <Footer />
